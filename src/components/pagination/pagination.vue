@@ -1,5 +1,5 @@
 <template>
-  <v-pagination :total="total" :current-page="currentPage" @pagechange="pagechange"></v-pagination>
+  <v-pagination :total="total" :count='count' :current-page="currentPage" @pagechange="pagechange"></v-pagination>
 </template>
 
 <script >
@@ -8,7 +8,7 @@ export default {
   data() {
     return {
       total: 200, // 记录总条数
-      count: 10, // 每页显示条数
+      count: 20, // 每页显示条数
       currentPage: 1 // 当前的页数
     };
   },

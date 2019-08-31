@@ -113,8 +113,8 @@ export default {
 </script>
 
 <style lang="less">
-@base-color: rgb(24, 104, 13);  //主色
-@font-size:12px;     //字体大小
+@base-color: rgb(24, 104, 13); //主色
+@font-size: 12px; //字体大小
 .pagination {
   overflow: hidden;
   display: table;
@@ -166,8 +166,24 @@ export default {
     input {
       outline: none; //去除鼠标点击效果
       padding: 3px;
+      //   height: 25px !important;
       width: 50px;
       text-align: center;
+    }
+    i {
+      color: @base-color;
+    }
+    span {
+      width: 50px;
+      text-align: center;
+      border: 1px solid #1c4e08;
+      height: 23px;
+      line-height: 23px !important;
+      display: block;
+      float: right;
+      margin-top: 2px;
+      background: #18680d;
+      color: white;
     }
   }
 }
