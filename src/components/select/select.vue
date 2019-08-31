@@ -59,7 +59,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang='less'>
-@import "../common.less";
+// @import "../common.less";
+@base-color:#02540e;  // 基础色
+@button-height:45px;   //按钮高度
 // @base-color:red;
 .select {
   position: relative;
